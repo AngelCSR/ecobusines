@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-image: url('ecologia.jpg');
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url('horizonte.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+}
+
+.tituloscabecera {
+    text-align: center;
+}
+h1{ color: green;}
+h2{color: white;}
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: space-around; 
+}
+
+nav a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
+   
+}
+
+nav a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    height: 500px;
+    display: flex;
+}
+
+article {
+    height: 50%;
+    padding: 20px;
+}
+
+.bordeverde {
+    border: 4px solid green;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.bordeverde img {
+    height: 100%;
+    float: right;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: lightgrey;
+    height: 200px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p {
+    text-align: justify;
+}
