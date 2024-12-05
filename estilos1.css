@@ -74,6 +74,7 @@ article {
     border: 4px solid green;
     border-radius: 15px;
     height: 100%;
+    
 }
 
 .bordeverde img {
@@ -94,4 +95,5 @@ footer {
 
 p {
     text-align: justify;
+    margin: 20px;
 }
