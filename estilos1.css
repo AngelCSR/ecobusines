@@ -76,8 +76,20 @@ article {
     height: 100%;
     
 }
+.bordeverdeflex {
+    display: flex;
+    border: 4px solid green;
+    border-radius: 15px;
+    height: 100%;
+    
+}
 
 .bordeverde img {
+    height: 100%;
+    float: right;
+    margin-left: 10px;
+}
+.bordeverdeflex img {
     height: 100%;
     float: right;
     margin-left: 10px;
